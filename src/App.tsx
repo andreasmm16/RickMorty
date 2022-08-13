@@ -10,6 +10,7 @@ function App() {
     <Switch>
       <Route path="/:id" component={CharacterDetails} />
       <Route path="/" component={Home} />
+      hola hola
     </Switch>
   );
 }
