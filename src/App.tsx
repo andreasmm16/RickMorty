@@ -8,6 +8,7 @@ import CharacterDetails from "./components/CharacterDetails";
 function App() {
   return (
     <Switch>
+      
       <Route path="/:id" component={CharacterDetails} />
       <Route path="/" component={Home} />
       hola hola
